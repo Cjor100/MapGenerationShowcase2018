@@ -456,9 +456,9 @@ void generate()
   }
 
   isrunning=false;
-  //noLoop();
-  //delay(1000);
-  //setupgenerate();
+  noLoop();
+  delay(1000);
+  setupgenerate();
   while (generate==false)
   {
     delay(10);
